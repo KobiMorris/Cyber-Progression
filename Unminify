@@ -1,0 +1,12 @@
+This is notes and steps taken to attempt/complete the 'Unminify' challenge on play.picoctf.org
+
+Description
+I don't like scrolling down to read the code of my website, so I've squished it. As a bonus, my pages load faster!
+
+This may be my fastest completed ever at a whopping like 10 seconds. 
+
+Considering the Description and layout of the webpage, I figured that the code would be buried 'deep' in the html. 
+
+As such, I right-clicked -> Expand all. The obj code was nested deep in a p tag with the Class name as the code
+
+picoCTF{pr3tty_c0d3_b99eb82e}
