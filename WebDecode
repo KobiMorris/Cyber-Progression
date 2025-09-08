@@ -1,0 +1,24 @@
+This is notes and steps taken to attempt/complete the 'WebDecode' challenge on play.picoctf.org
+
+Presented with the homepage, being that this is about the web-inspector, I opened it (Mozilla) and went to the furthest right that would contain data, this was 'Storage'. It contained no data at all. 
+
+Moved to Network -> Reload -> Investigated each one -> Nothing
+
+Moved to inspector -> Expand all -> Nothing 'unusual'
+
+Moved to next page 'About'
+
+Followed the same routine. Nothing out of oridnary untile the inspector.
+
+This is where I noticed a long string of gibberish within the section header "<section class="about" notify_true="cGljb0NURnt3ZWJfc3VjYzNzc2Z1bGx5X2QzYzBkZWRfZGYwZGE3Mjd9">
+
+Following from what was the previous objective 'Cookie Monster Secter Recipe', I tried to decode it using the base64 decode method which was a success, leaving the flag -> 
+
+picoCTF{web_succ3ssfully_d3c0ded_df0da727}
+
+------------
+
+Didn't Cheat :)
+
+------------
+No Mistakes or anything to learn from in this objective. I had prior html experience.
